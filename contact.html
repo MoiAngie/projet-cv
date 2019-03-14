@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+
+<title>Contacter Angélina Maas</title>
+</head>
+
+<body>
+  <header>
+    <h1>Angélina Maas</h1>
+    <h3>Web designer</h3>
+
+
+  </header>
+
+<form class="contact" action="form.php" method="post">
+
+  <p class="bld pd20">
+    Veuillez remplir le formulaire ci-dessous pour me contacter svp:
+  </p>
+
+<fieldset class="fieldset1">
+
+  <input type="text" name="fname" placeholder="Votre prénom"><br>
+  <input type="text" name="lname" placeholder="Votre nom"><br>
+  <input type="email" name="email" placeholder="Votre adresse e-mail"><br>
+
+</fieldset>
+
+<fieldset class="fieldset2">
+
+ <input list="sujets" name="sujet" placeholder="Sujet de votre demande">
+  <datalist id="sujets">
+      <option value="Projet de création de site">
+      <option value="Amélioration de votre site actuel">
+      <option value="Me proposer un job">
+      <option value="Demande de renseignements complémentaires">
+      <option value="Autre">
+  </datalist>
+  <br>
+  <label for="message">Votre message ci-dessous:</label>
+  <textarea id="message" name="message" rows="10" cols="100" placeholder="Votre message ici">
+  </textarea>
+
+</fieldset>
+
+  <input type="submit" value="Envoyer" onclick="changeText(this)">
+
+  <p class="bld pd20">
+    Je m'engage à vous répondre sous 48h, hors publicité.
+  </p>
+
+</form>
+
+      <footer>
+
+
+        <!---------->
+
+      </footer>
+
+
+</body>
+</html>
+
+
+  <main>
